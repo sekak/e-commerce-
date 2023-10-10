@@ -1,0 +1,42 @@
+.contact{
+    background-color: #2879fe;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .wrapper{
+         width: 50%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+          span{
+            color: white;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+         .search{
+            input{
+                padding: 10px;
+                // height: 33px;
+                border:none;
+                border-radius: 8px 0px 0px 8px; 
+                outline: none;
+            }
+            button{
+                // height: 33px;
+                text-transform: uppercase;
+                color: white;
+                background-color: #333;
+                border: none;
+                border-radius: 0px 5px 5px 0px;
+                padding: 10px;
+                cursor: pointer;
+            }
+         }
+         .icons{
+            color: white;
+            display: flex;
+            gap: 10px;
+         }
+    }
+}

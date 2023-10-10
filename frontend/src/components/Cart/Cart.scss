@@ -1,0 +1,86 @@
+.cartI{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    padding: 20px;
+    gap: 20px;
+    z-index: 999;
+    width: 400px;
+    background-color: white;
+     font-family: "Dosis", sans-serif;
+     box-shadow: 0px 0px 10px 5px rgba(102, 91, 91, 0.733);
+
+    h1{
+        color: #686868;    
+        font-size: 28px;
+    }
+    .item{
+        border-radius: 10px;
+        padding: 0px 10px;
+        box-shadow: 0px 0px 10px 5px rgba(141, 141, 141, 0.1);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-between;
+        .config{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        .text{
+           
+            h2{
+                color: #797979;
+                font-size: 23px;
+                font-weight: 600;
+            }
+            h3{
+                color: rgb(7, 7, 7);
+                font-size: 15px;
+                margin-top: -20px;
+                font-weight: 400;
+            }
+            p{
+               font-weight: 600;
+               color: #797979;
+            }
+        }
+        .icon{
+             color: red;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            cursor: pointer;
+        }
+        img{
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            padding: 10px;
+        }
+    }
+    .price{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 21px;
+    }
+    button{
+        
+        width: 200px;
+        background-color: #2879fe;  
+        border: none;
+        padding: 10px;
+        color: white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        cursor: pointer;
+    }
+    span{
+        color:#2879fe;
+        cursor: pointer;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,27 @@
+.contianer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.cart{
+    border: 1px solid black; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+}

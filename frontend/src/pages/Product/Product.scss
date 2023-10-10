@@ -1,0 +1,36 @@
+.product{
+    display: flex;
+    padding: 10px 50px;
+    font-family: "Dosis" , sans-serif;
+
+    .left{
+        flex: 1;
+        position: sticky;
+        height: 100%;
+        top: 50px;
+
+         h2{
+            font-weight: 400;
+            font-size: 25px;
+            font-family: "Dosis" , sans-serif;
+         }
+         .inputItem{
+            margin-bottom: 10px;
+         }
+         .filterItem{
+            margin-bottom: 20px;
+         }
+    }
+
+    .right{
+        flex: 3;
+
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+
+    
+}
