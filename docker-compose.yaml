@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  api:
+    restart: always
+    build: ./backend
+    environment:
+      - MONGO_URL=mongodb+srv://med:medmed@cluster0.be9hlx7.mongodb.net/?retryWrites=true&w=majority
+  
+  frontend:
+    restart: always
+    build: ./client
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+ 
